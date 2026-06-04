@@ -1291,6 +1291,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-text-muted);
   line-height: 1.8;
   margin-bottom: var(--space-8);
+  text-align: justify;
 }
 
 .about-pillars {
@@ -1471,7 +1472,7 @@ h1, h2, h3, h4, h5, h6 {
   content: '✓';
   position: absolute;
   left: 0;
-  color: var(--color-accent);
+  color: #8a9093
   font-weight: 800;
   font-size: var(--text-xs);
 }
