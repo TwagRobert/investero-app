@@ -672,19 +672,18 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Hero text */
 .hero-badge {
-  display: inline-block;
-  background: rgba(0, 184, 148, 0.10);
-  color: var(--color-accent);
+  /*display: inline-block;
+  background: rgba(0, 184, 148, 0.10);*/
+  color: #ffda71;
   font-size: var(--text-xs);
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   padding: var(--space-1) var(--space-4);
   border-radius: var(--radius-full);
-  border: 1px solid rgba(0, 184, 148, 0.25);
   margin-bottom: var(--space-5);
   animation: fade-in-badge 0.8s ease 0.2s both;
-  display: inline-flex;
+  display: inline-grid;
 }
 .hero-badge img{
   padding-right: 4px;
@@ -1602,7 +1601,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .audience-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: var(--space-5);
 }
 
