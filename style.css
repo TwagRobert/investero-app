@@ -1432,10 +1432,10 @@ h1, h2, h3, h4, h5, h6 {
   margin:auto ;
 }
 
-.s1 { background: rgba(0, 184, 148, 0.12); }
-.s2 { background: rgba(255, 255, 255, 0.15); }
-.s3 { background: rgba(244, 164, 49, 0.12); }
-.s4 { background: rgba(26, 71, 95, 0.08); }
+.s1 { background: rgba(0, 184, 148, 0.0); }
+.s2 { background: rgba(255, 255, 255, 0.0); }
+.s3 { background: rgba(244, 164, 49, 0.0); }
+.s4 { background: rgba(26, 71, 95, 0.0); }
 
 .service-title {
   font-size: 18px;
